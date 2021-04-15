@@ -12,7 +12,7 @@ target_port = 0
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((target_host, target_port))
-client.send()
+client.send("data".encode())
 
 response = client.recv(4096)
 print(response)

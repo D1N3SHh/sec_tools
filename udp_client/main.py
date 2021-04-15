@@ -11,7 +11,7 @@ target_host = ""
 target_port = 0
 
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-client.sendto("data", (target_host, target_port))
+client.sendto("data".encode(), (target_host, target_port))
 
 data, addr = client.recvfrom(4096)
 print(data)
