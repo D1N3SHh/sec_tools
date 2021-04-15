@@ -1,6 +1,6 @@
-# Sec tools
+# TCP client
 
-Some of my basic security tools made using python.
+Just simple TCP client made using 'socket' module.
 
 *This project was created only for learning and will not be developed any more.*
 
