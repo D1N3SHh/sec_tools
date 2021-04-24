@@ -6,3 +6,6 @@ Some of my basic security tools made using python.
 
 ## Author
 [D1N3SHh](https://github.com/D1N3SHh)
+
+## License
+[MIT](https://github.com/D1N3SHh/sec_tools/blob/master/LICENSE)
